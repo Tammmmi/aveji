@@ -1,3 +1,33 @@
-.text {
-    color: red;
+header {
+    width: 1376px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: 
+    rgba(33, 37, 41, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    color: burlywood;
+}
+nav {
+    position: absolute;
+    top: 12px;
+    left: 950px;
+    width: Hug (98px);
+    height: Hug (108px);
+}
+span {
+    display:inline;
+    position: absolute;
+    top: 12px;
+    left: 1268px;
+    width: 140px;
+    height: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: 
+    rgba(33, 37, 41, 1);
 }
