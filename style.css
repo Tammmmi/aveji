@@ -24,7 +24,8 @@ span {
     justify-content: flex-end;
 }
 nav {
-    
+    position: relative;
+    left: 220px;
 }
 img {
     width: 40px;
