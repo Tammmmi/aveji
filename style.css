@@ -1,3 +1,7 @@
+ul {
+    margin: 0;
+    padding:0;
+}
 li {
     list-style-type: none;
 }
@@ -12,22 +16,14 @@ a:hover {
 }
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 span {
-    width: 150px;
-    height: 21px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: 
     rgba(33, 37, 41, 1);
-    justify-content: flex-end;
+    margin-left: 207px;
 }
 nav {
-    position: relative;
-    left: 220px;
+   margin-left: auto;
 }
-img {
-    width: 40px;
-    height: 40px;
-}
+
