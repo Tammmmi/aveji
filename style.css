@@ -1,3 +1,4 @@
+
 ul {
     margin: 0;
     padding:0;
@@ -5,17 +6,19 @@ ul {
 li {
     list-style-type: none;
 }
-a {
+.nav {
     text-decoration: none;
     color: 
     rgba(33, 37, 41, 1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a:hover {
-    color: burlywood;
+.nav:hover {
+    color: rgba(249, 198, 123, 1);
+    transition: color 0.3s;
 }
 header {
     display: flex;
+    margin: 0 32px;
 }
 span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,4 +29,48 @@ span {
 nav {
    margin-left: auto;
 }
-
+main {
+    height: 1120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 72px;
+    width: 794px;
+    height: 258px;
+    font-weight: 200;
+    text-transform: uppercase;
+    align-items: flex-start;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+    width: 445px;
+    height: 84px;
+    align-items: flex-start;
+}
+.project {
+    color: 
+    rgba(33, 37, 41, 1);
+    text-transform: uppercase;
+    position: relative;
+    left: 1570px;
+    bottom: 30px;
+}
+.right {
+    margin-top:auto;
+    width: 678px;
+    margin-left: auto;
+}
+.left {
+    margin-top:auto;
+    margin-right: auto;
+}
+.project:hover {
+    color:rgba(249, 198, 123, 1);
+    transition: color 0.3s;
+}
