@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "Helvetica";
+    src: url("assets/helvetica_regular.otf") format("otf");
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -55,6 +58,7 @@ main {
 
 h1 {
     font-size: 72px;
+    font-family: "Helvetica";
     width: 794px;
     /* height: 258px; */
     font-weight: 200;
@@ -113,6 +117,7 @@ h1 {
     height: 198px;
     margin-right: auto;
     font-size: 48px;
+    font-family: "Helvetica";
 }
 .aboutus {
     width: 679px;
@@ -146,6 +151,7 @@ h1 {
 }
 .about-info-item span {
     font-size: 36px;
+    font-family: "Helvetica";
 }
 .about-info-item p {
     font-size: 16px;
