@@ -1,4 +1,9 @@
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 ul {
     margin: 0;
     padding:0;
@@ -12,7 +17,7 @@ li {
     text-decoration: none;
     color: 
     rgba(33, 37, 41, 1);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .nav:hover {
@@ -26,7 +31,7 @@ header {
 }
 
 .number {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: 
     rgba(33, 37, 41, 1);
     margin-left: 207px;
@@ -38,7 +43,7 @@ nav {
 
 main {
     /* height: 1120px; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin: 0 32px;
     margin-top: 50px;
 }
@@ -97,4 +102,51 @@ h1 {
  .right {
     margin-left: auto;
 } 
-
+.about {
+    margin-top: 120px;
+    margin-left: 32px;
+    margin-right: 32px;
+    display: flex;
+}
+.five {
+    width: 562px;
+    height: 198px;
+    margin-right: auto;
+    font-size: 48px;
+}
+.aboutus {
+    width: 679px;
+    margin-left: auto;
+}
+.about-text {
+    height: 208px;
+    margin-bottom: 44px;
+}
+.about-text p {
+    width: 446px;
+    height: 66px;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.about-text p:nth-child(2) {
+    height: 44px;
+}
+.about-text p:nth-child(3) {
+    margin-bottom: 0;
+}
+.about-info {
+    height: 308px;
+}
+.about-info-item {
+    margin-bottom: 24px;
+}
+.about-info-item:nth-child(3) {
+    margin-bottom: 0;
+}
+.about-info-item span {
+    font-size: 36px;
+}
+.about-info-item p {
+    font-size: 16px;
+}
